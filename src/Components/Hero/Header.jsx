@@ -3,7 +3,7 @@ import { IoMdHome } from "react-icons/io";
 import { MdElectricalServices } from "react-icons/md";
 import { IoMdPricetag } from "react-icons/io";
 import { RiContactsFill } from "react-icons/ri";
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import HeaderItems from './HeaderItems';
 import { GiHamburgerMenu } from "react-icons/gi";
 import ResponsiveMenu from './ResponsiveMenu';
@@ -23,7 +23,7 @@ const Header = () => {
         
     ]
   return (
-    <div>
+    <div className='py-2 px-10'>
     <div className='sticky top-0 z-[20] mx-auto flex w-full items-center justify-between'>
         {/* Logo */}
         <div>

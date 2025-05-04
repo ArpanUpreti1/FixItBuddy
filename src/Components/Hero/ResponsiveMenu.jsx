@@ -14,7 +14,7 @@ const ResponsiveMenu = ({open}) => {
           rounded-xl'
         >
         <div className='text-xl font-semibold font-poppins py-10 rounded-xl'>
-          <ul className='flex flex-col gap-10 text-white'>
+          <ul className='flex flex-col gap-10 text-white cursor-pointer '>
 
             <li>
               HOME
